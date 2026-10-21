@@ -98,7 +98,7 @@ def cursor(d, x, y, click=0.0):
     d.polygon([(x, y), (x, y + 52), (x + 14, y + 40), (x + 26, y + 64), (x + 36, y + 58), (x + 24, y + 36), (x + 42, y + 34)],
               fill=WHITE, outline=INK)
 
-KEEP = ("gs.", "javascript", "sys_user", "g_form", "()", "_")
+KEEP = ("gs.", "javascript", "sys_user", "g_form", "()", "_", "parseInt", "GlideAjax", "onChange")
 def captions(img, segs, t):
     for s in segs:
         if s["start"] <= t < s["start"] + s["dur"]:
