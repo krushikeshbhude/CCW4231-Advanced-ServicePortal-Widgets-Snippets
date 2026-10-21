@@ -8,7 +8,8 @@ Everything needed to continue making Shorts and videos in the same style, voice 
 | Folder | What's in it |
 |---|---|
 | `brand/` | `logo.png` (269×77, transparent, so put it on a white badge on dark backgrounds), PPT style reference images |
-| `hrsd-episode2/` | Corrected deck `HRSD_Episode2_Hybrid_v2.pptx`, **Script v2** (current), original v1 script, review & edit plan, slide voice-over recording script |
+| `hrsd-episode2/` | Deck **`HRSD_Episode2_Hybrid_v3.pptx`** (9 slides, current) + v2, **Script v3** (current, two-instance setup), Script v2, original v1 script, review & edit plan, slide voice-over recording script, `overlays/` (Instance A / Instance B badges) |
+| `hrsd-episode3/` | Episode 3 outline: REST integration Instance A → Instance B, Basic Auth then OAuth 2.0 |
 | `docs/` | YouTube upload guide (all 13 videos), ZZ_YY Shorts series plan, upload sheets, long-video transcript |
 | `tools/` | Python generators (see below) |
 
@@ -74,3 +75,11 @@ The tools expect `venv/`, `voice/`, `asr/` next to them (the scratchpad layout u
 - Piper TTS isn't deterministic; verify the voice by spectral fingerprint, not by sample comparison.
 - Mock UI must not invent menu items or numbers; label illustrative data on screen.
 - Files over 30 MB can't be sent in chat; split zips.
+
+## HRSD demo architecture (two ServiceNow instances)
+- **Instance A — HRSD:** record producer, approval flow, HR Case, audit trail (Episodes 1, 2, 4, 5).
+- **Instance B — Mock HRIS:** a second ServiceNow instance standing in for the client's Workday / SAP. Scoped app
+  **HRIS Leave** + **HRIS Leave table** (system of record). Always call it "Mock HRIS" on screen.
+- Episode 2: the HR team enters the row on B **by hand**. No auth set up yet (by design).
+- Episode 3: Scripted REST API + integration user on B; Connection & Credential alias on A, first **Basic Auth**, then **OAuth 2.0**.
+- Show `hrsd-episode2/overlays/overlay_instance_*.png` top-right whenever the video switches instance.

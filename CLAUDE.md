@@ -32,4 +32,9 @@ This repo has two parts:
 | Best Practices Shorts 1–6 + long video "30 ServiceNow Best Practices" (8:02) | Done (voice 9) |
 | HRSD Ep 1.1 Short: auto-populate Manager/Location (PPT style, voice 9, 43 s) | Done (`channel-kit/tools/shorts/ep1_autopopulate.py`) |
 | HRSD Ep 1.2 Shorts A (employee type via GlideAjax, 43 s) + B (leave duration/balance + console debug, 40 s) | Done (`channel-kit/tools/shorts/ep12_shorts.py`) |
-| HRSD HR Leave Request series, 5 episodes | Ep 1.1, 1.2 done. **Ep 2: KB re-recording with Script v2** (`channel-kit/hrsd-episode2/`). Ep 3 = HRIS integration (REST), Ep 4 = notifications & SLAs, Ep 5 = portal/Employee Center |
+| HRSD HR Leave Request series, 5 episodes | Ep 1.1, 1.2 done. **Ep 2: KB re-recording with Script v3 + deck v3** (`channel-kit/hrsd-episode2/`; new slide 5 needs his VO). Ep 3 = REST integration A → B, Basic Auth then OAuth 2.0 (outline: `channel-kit/hrsd-episode3/`), Ep 4 = notifications & SLAs, Ep 5 = portal/Employee Center |
+
+## HRSD demo architecture
+Two ServiceNow instances: **Instance A = HRSD** (forms, flow, HR Case) and **Instance B = "Mock HRIS"** (stand-in for the client's
+Workday/SAP; scoped app HRIS Leave + HRIS Leave table). Ep 2 = manual entry on B, no auth yet. Ep 3 = Scripted REST API on B,
+Connection & Credential alias on A with Basic Auth, then OAuth 2.0. Details: `channel-kit/README.md`.
