@@ -16,6 +16,9 @@ This repo has two parts:
   Don't use the Piper "Ryan" voice: it's non-commercial only. ElevenLabs may replace voice 9 later.
 - **Formats:** Shorts 1080×1920, 25–45 s, hook in first 2 s, captions burned in, logo badge + end card.
   Long videos 1920×1080, chapters, ≥ 8:00 if mid-roll ads matter. Loudness ≈ −14 to −16 LUFS.
+- **Branding rule (hard):** the only name/brand shown anywhere (video, slides, file names, descriptions, scripts) is
+  **ServiceNow Simplified**. Never show a client or employer name. Before delivering, scan text files, PPT text and the
+  rendered slide images for client names.
 - **Accuracy first:** verify ServiceNow claims (docs/community) before putting them on screen; never show unverified numbers
   or real client names (the HRSD scope was renamed to **"HRIS Leave"** for this reason). Say "illustrative" for mock UI.
 - **YouTube:** links in Shorts descriptions/comments are not clickable, so use the Related video field. 3 hashtags, 8–12 tags.
