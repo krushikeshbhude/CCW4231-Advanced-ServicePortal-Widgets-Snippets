@@ -28,7 +28,11 @@ Everything needed to continue making Shorts and videos in the same style, voice 
 Ready-made assets in this style (from Episode 2): BUILD/DEMO title cards and "LOGGED IN AS" lower-thirds.
 Regenerate with `tools/hrsd/hrsd_video.py` (`ONLY=overlays`).
 
-> Note: `tools/snlib.py` (Shorts/long-video toolkit) still renders the **dark** theme used for the ZZ_YY and
+> **New Shorts: use `tools/pptstyle.py`** (light PPT style: white bg, navy/green/amber, Carlito, logo top-left,
+> navy caption band with amber current word; Carlito lacks ✓/✗, so `tfont()` falls back to DejaVu). Example:
+> `tools/shorts/ep1_autopopulate.py` (HRSD Ep 1.1 auto-populate Short).
+>
+> Older note: `tools/snlib.py` (Shorts/long-video toolkit) still renders the **dark** theme used for the ZZ_YY and
 > Best-Practices series. To follow the PPT style for new Shorts, swap its background and colour constants for the values above.
 
 ## Voice

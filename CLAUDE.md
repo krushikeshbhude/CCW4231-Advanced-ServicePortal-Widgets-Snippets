@@ -30,4 +30,5 @@ This repo has two parts:
 |---|---|
 | ZZ_YY Shorts 1–6 | Done (voice 9). Related video: https://www.youtube.com/watch?v=RwLf7Vw4QGQ |
 | Best Practices Shorts 1–6 + long video "30 ServiceNow Best Practices" (8:02) | Done (voice 9) |
+| HRSD Ep 1.1 Short: auto-populate Manager/Location (PPT style, voice 9, 43 s) | Done (`channel-kit/tools/shorts/ep1_autopopulate.py`) |
 | HRSD HR Leave Request series, 5 episodes | Ep 1.1, 1.2 done. **Ep 2: KB re-recording with Script v2** (`channel-kit/hrsd-episode2/`). Ep 3 = HRIS integration (REST), Ep 4 = notifications & SLAs, Ep 5 = portal/Employee Center |
