@@ -8,7 +8,7 @@ Everything needed to continue making Shorts and videos in the same style, voice 
 | Folder | What's in it |
 |---|---|
 | `brand/` | `logo.png` (269×77, transparent, so put it on a white badge on dark backgrounds), PPT style reference images |
-| `hrsd-episode2/` | Deck **`HRSD_Episode2_Hybrid_v3.pptx`** (9 slides, current) + v2, **Script v3** (current, two-instance setup), Script v2, original v1 script, review & edit plan, slide voice-over recording script, `overlays/` (Instance A / Instance B badges) |
+| `hrsd-episode2/` | Deck **`HRSD_Episode2_Hybrid_v3.pptx`** (9 slides, current) + v2, **`HRSD_Episode2_Recording_Script_FINAL.md`** (current: full script + slide VO in one file), Script v3, Script v2, original v1 script, review & edit plan, slide voice-over recording script, `overlays/` (Instance A / Instance B badges) |
 | `hrsd-episode3/` | Episode 3 outline: REST integration Instance A → Instance B, Basic Auth then OAuth 2.0 |
 | `docs/` | YouTube upload guide (all 13 videos), ZZ_YY Shorts series plan, upload sheets, long-video transcript |
 | `tools/` | Python generators (see below) |
