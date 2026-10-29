@@ -22,7 +22,7 @@ This repo has two parts:
 - **Accuracy first:** verify ServiceNow claims (docs/community) before putting them on screen; never show unverified numbers
   or real client names (the HRSD scope was renamed to **"HRIS Leave"** for this reason). Say "illustrative" for mock UI.
 - **YouTube:** links in Shorts descriptions/comments are not clickable, so use the Related video field. 3 hashtags, 8–12 tags.
-  Upload sheet format: see `channel-kit/docs/YouTube_Upload_Guide_ALL_13_videos.md`.
+  Short requests: `channel-kit/docs/Short_Request_Template.md`. Upload sheet format: see `channel-kit/docs/YouTube_Upload_Guide_ALL_13_videos.md`.
 
 ## Current series status
 
